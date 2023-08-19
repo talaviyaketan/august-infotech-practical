@@ -1,0 +1,125 @@
+2023-08-19T07:38:26+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "additional_product_tabs_metabox_content" not found or invalid function name in C:\xampp\htdocs\august\wp-admin\includes\template.php:1443
+Stack trace:
+#0 C:\xampp\htdocs\august\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#1 C:\xampp\htdocs\august\wp-admin\post-new.php(75): require('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\august\wp-admin\includes\template.php on line 1443
+
+2023-08-19T07:49:39+00:00 CRITICAL Uncaught Error: Undefined constant "get_the_title" in C:\xampp\htdocs\august\wp-content\plugins\news-plugin\news-plugin.php:78
+Stack trace:
+#0 C:\xampp\htdocs\august\wp-admin\includes\template.php(1443): additional_product_tabs_metabox_content(Object(WP_Post), Array)
+#1 C:\xampp\htdocs\august\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#2 C:\xampp\htdocs\august\wp-admin\post-new.php(75): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\august\wp-content\plugins\news-plugin\news-plugin.php on line 78
+
+2023-08-19T07:50:04+00:00 CRITICAL Uncaught Error: Undefined constant "the_title" in C:\xampp\htdocs\august\wp-content\plugins\news-plugin\news-plugin.php:78
+Stack trace:
+#0 C:\xampp\htdocs\august\wp-admin\includes\template.php(1443): additional_product_tabs_metabox_content(Object(WP_Post), Array)
+#1 C:\xampp\htdocs\august\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#2 C:\xampp\htdocs\august\wp-admin\post-new.php(75): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\august\wp-content\plugins\news-plugin\news-plugin.php on line 78
+
+2023-08-19T07:56:22+00:00 CRITICAL Uncaught Error: Undefined constant "post_title" in C:\xampp\htdocs\august\wp-content\plugins\news-plugin\news-plugin.php:83
+Stack trace:
+#0 C:\xampp\htdocs\august\wp-admin\includes\template.php(1443): additional_product_tabs_metabox_content(Object(WP_Post), Array)
+#1 C:\xampp\htdocs\august\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#2 C:\xampp\htdocs\august\wp-admin\post-new.php(75): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\august\wp-content\plugins\news-plugin\news-plugin.php on line 83
+
+2023-08-19T07:56:57+00:00 CRITICAL Uncaught Error: Undefined constant "post_title" in C:\xampp\htdocs\august\wp-content\plugins\news-plugin\news-plugin.php:83
+Stack trace:
+#0 C:\xampp\htdocs\august\wp-admin\includes\template.php(1443): additional_product_tabs_metabox_content(Object(WP_Post), Array)
+#1 C:\xampp\htdocs\august\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#2 C:\xampp\htdocs\august\wp-admin\post-new.php(75): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\august\wp-content\plugins\news-plugin\news-plugin.php on line 83
+
+2023-08-19T07:58:20+00:00 CRITICAL Uncaught Error: Undefined constant "post_title" in C:\xampp\htdocs\august\wp-content\plugins\news-plugin\news-plugin.php:84
+Stack trace:
+#0 C:\xampp\htdocs\august\wp-admin\includes\template.php(1443): additional_product_tabs_metabox_content(Object(WP_Post), Array)
+#1 C:\xampp\htdocs\august\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#2 C:\xampp\htdocs\august\wp-admin\post-new.php(75): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\august\wp-content\plugins\news-plugin\news-plugin.php on line 84
+
+2023-08-19T07:59:25+00:00 CRITICAL Uncaught Error: Undefined constant "post_title" in C:\xampp\htdocs\august\wp-content\plugins\news-plugin\news-plugin.php:84
+Stack trace:
+#0 C:\xampp\htdocs\august\wp-admin\includes\template.php(1443): additional_product_tabs_metabox_content(Object(WP_Post), Array)
+#1 C:\xampp\htdocs\august\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#2 C:\xampp\htdocs\august\wp-admin\post-new.php(75): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\august\wp-content\plugins\news-plugin\news-plugin.php on line 84
+
+2023-08-19T08:01:03+00:00 CRITICAL Uncaught Error: Undefined constant "post_title" in C:\xampp\htdocs\august\wp-content\plugins\news-plugin\news-plugin.php:84
+Stack trace:
+#0 C:\xampp\htdocs\august\wp-admin\includes\template.php(1443): additional_product_tabs_metabox_content(Object(WP_Post), Array)
+#1 C:\xampp\htdocs\august\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#2 C:\xampp\htdocs\august\wp-admin\post-new.php(75): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\august\wp-content\plugins\news-plugin\news-plugin.php on line 84
+
+2023-08-19T08:24:56+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "woo_display_news_tab_content" not found or invalid function name in C:\xampp\htdocs\august\wp-content\plugins\woocommerce\templates\single-product\tabs\tabs.php:47
+Stack trace:
+#0 C:\xampp\htdocs\august\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\august\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1626): wc_get_template('single-product/...')
+#2 C:\xampp\htdocs\august\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\ProductDetails.php(60): woocommerce_output_product_data_tabs()
+#3 C:\xampp\htdocs\august\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\ProductDetails.php(34): Automattic\WooCommerce\Blocks\BlockTypes\ProductDetails->render_tabs()
+#4 C:\xampp\htdocs\august\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\AbstractBlock.php(88): Automattic\WooCommerce\Blocks\BlockTypes\ProductDetails->render(Array, '', Object(WP_Block))
+#5 C:\xampp\htdocs\august\wp-includes\class-wp-block.php(258): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->render_callback(Array, '', Object(WP_Block))
+#6 C:\xampp\htdocs\august\wp-includes\class-wp-block.php(244): WP_Block->render()
+#7 C:\xampp\htdocs\august\wp-includes\class-wp-block.php(244): WP_Block->render()
+#8 C:\xampp\htdocs\august\wp-includes\blocks.php(1133): WP_Block->render()
+#9 C:\xampp\htdocs\august\wp-includes\blocks.php(1171): render_block(Array)
+#10 C:\xampp\htdocs\august\wp-includes\block-template.php(231): do_blocks('<!-- wp:templat...')
+#11 C:\xampp\htdocs\august\wp-includes\template-canvas.php(12): get_the_block_template_html()
+#12 C:\xampp\htdocs\august\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\august\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\august\index.php(17): require('C:\\xampp\\htdocs...')
+#15 {main}
+  thrown in C:\xampp\htdocs\august\wp-content\plugins\woocommerce\templates\single-product\tabs\tabs.php on line 47
+
+2023-08-19T08:26:23+00:00 CRITICAL Uncaught Error: Undefined constant "post_title" in C:\xampp\htdocs\august\wp-content\plugins\news-plugin\news-plugin.php:156
+Stack trace:
+#0 C:\xampp\htdocs\august\wp-content\plugins\woocommerce\templates\single-product\tabs\tabs.php(47): woo_display_news_tab_content('product_news_ta...', Array)
+#1 C:\xampp\htdocs\august\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\august\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1626): wc_get_template('single-product/...')
+#3 C:\xampp\htdocs\august\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\ProductDetails.php(60): woocommerce_output_product_data_tabs()
+#4 C:\xampp\htdocs\august\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\ProductDetails.php(34): Automattic\WooCommerce\Blocks\BlockTypes\ProductDetails->render_tabs()
+#5 C:\xampp\htdocs\august\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\AbstractBlock.php(88): Automattic\WooCommerce\Blocks\BlockTypes\ProductDetails->render(Array, '', Object(WP_Block))
+#6 C:\xampp\htdocs\august\wp-includes\class-wp-block.php(258): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->render_callback(Array, '', Object(WP_Block))
+#7 C:\xampp\htdocs\august\wp-includes\class-wp-block.php(244): WP_Block->render()
+#8 C:\xampp\htdocs\august\wp-includes\class-wp-block.php(244): WP_Block->render()
+#9 C:\xampp\htdocs\august\wp-includes\blocks.php(1133): WP_Block->render()
+#10 C:\xampp\htdocs\august\wp-includes\blocks.php(1171): render_block(Array)
+#11 C:\xampp\htdocs\august\wp-includes\block-template.php(231): do_blocks('<!-- wp:templat...')
+#12 C:\xampp\htdocs\august\wp-includes\template-canvas.php(12): get_the_block_template_html()
+#13 C:\xampp\htdocs\august\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\august\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\august\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\august\wp-content\plugins\news-plugin\news-plugin.php on line 156
+
+2023-08-19T08:29:29+00:00 CRITICAL Uncaught Error: Undefined constant "post_id" in C:\xampp\htdocs\august\wp-content\plugins\news-plugin\news-plugin.php:152
+Stack trace:
+#0 C:\xampp\htdocs\august\wp-content\plugins\woocommerce\templates\single-product\tabs\tabs.php(47): woo_display_news_tab_content('product_news_ta...', Array)
+#1 C:\xampp\htdocs\august\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\august\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1626): wc_get_template('single-product/...')
+#3 C:\xampp\htdocs\august\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\ProductDetails.php(60): woocommerce_output_product_data_tabs()
+#4 C:\xampp\htdocs\august\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\ProductDetails.php(34): Automattic\WooCommerce\Blocks\BlockTypes\ProductDetails->render_tabs()
+#5 C:\xampp\htdocs\august\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\AbstractBlock.php(88): Automattic\WooCommerce\Blocks\BlockTypes\ProductDetails->render(Array, '', Object(WP_Block))
+#6 C:\xampp\htdocs\august\wp-includes\class-wp-block.php(258): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->render_callback(Array, '', Object(WP_Block))
+#7 C:\xampp\htdocs\august\wp-includes\class-wp-block.php(244): WP_Block->render()
+#8 C:\xampp\htdocs\august\wp-includes\class-wp-block.php(244): WP_Block->render()
+#9 C:\xampp\htdocs\august\wp-includes\blocks.php(1133): WP_Block->render()
+#10 C:\xampp\htdocs\august\wp-includes\blocks.php(1171): render_block(Array)
+#11 C:\xampp\htdocs\august\wp-includes\block-template.php(231): do_blocks('<!-- wp:templat...')
+#12 C:\xampp\htdocs\august\wp-includes\template-canvas.php(12): get_the_block_template_html()
+#13 C:\xampp\htdocs\august\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\august\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\august\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\august\wp-content\plugins\news-plugin\news-plugin.php on line 152
+
